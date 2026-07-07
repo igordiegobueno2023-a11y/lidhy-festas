@@ -236,10 +236,16 @@ h3 {
 
 .price-card strong {
   display: block;
-  margin: 2px 0;
+  margin: 2px 0 4px;
   color: var(--pink);
-  font-size: 3rem;
+  font-size: 2.55rem;
   line-height: 1;
+}
+
+.price-divider {
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
 }
 
 section {
