@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lidhy Festas | Kits Pegue e Monte & Decoração</title>
-  <meta name="description" content="Lidhy Festas - kits Pegue e Monte a partir de R$ 120 e decoração com balões a partir de R$ 400. Temas infantis, chá de bebê e aniversários.">
+  <title>Lidhy Festas | Pegue e Monte, Decoração e Espaço em Lorena</title>
+  <meta name="description" content="Kits Pegue e Monte, decorações e Espaço Lidhy Festas & Eventos em Lorena/SP. Conheça os temas, a piscina, o salão e consulte sua data pelo WhatsApp.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Playfair+Display:ital,wght@0,700;0,800;1,700&display=swap" rel="stylesheet">
@@ -16,12 +16,13 @@
       <span class="brand-mark">LF</span>
       <span>
         <strong>Lidhy Festas</strong>
-        <small>Kits e Decoração</small>
+        <small>Kits, Decoração e Espaço</small>
       </span>
     </a>
     <nav>
       <a href="#servicos">Serviços</a>
       <a href="#temas">Temas</a>
+      <a href="#espaco">Chácara / Espaço</a>
       <a href="#como-funciona">Como funciona</a>
       <a class="nav-cta" href="#orcamento">Orçamento</a>
     </nav>
@@ -45,9 +46,10 @@
       <div class="hero-content">
         <p class="eyebrow reveal">Kits e decorações para festas lindas</p>
         <h1 class="reveal" style="--d:.08s">Lidhy<br>Festas</h1>
-        <p class="hero-copy reveal" style="--d:.16s">Kits Pegue e Monte para quem quer praticidade, e decorações completas com balões para transformar sua festa em um momento inesquecível.</p>
+        <p class="hero-copy reveal" style="--d:.16s">Kits Pegue e Monte, decorações completas e um espaço em Lorena para reunir quem você ama. Escolha o tema e venha comemorar com a gente.</p>
         <div class="hero-actions reveal" style="--d:.24s">
           <a class="button primary" href="#temas">Ver temas</a>
+          <a class="button ghost" href="#espaco">Conhecer o espaço</a>
           <a class="button ghost" href="#orcamento">Pedir orçamento</a>
         </div>
       </div>
@@ -76,9 +78,9 @@
     <section class="intro band" id="servicos">
       <div class="reveal">
         <p class="section-kicker">Tudo pronto para facilitar</p>
-        <h2>Duas formas de deixar sua festa <em>incrível</em>.</h2>
+        <h2>Do tema ao espaço, sua festa <em>começa aqui</em>.</h2>
       </div>
-      <p class="reveal" style="--d:.1s">A Lidhy Festas separa os serviços em duas opções: Kits Pegue e Monte a partir de R$ 120 e Decoração a partir de R$ 400 para festas com balões.</p>
+      <p class="reveal" style="--d:.1s">Retire e monte seu kit a partir de R$ 120, conte com nossa decoração com balões a partir de R$ 400 ou conheça o Espaço Lidhy para receber sua festa. Locação do espaço sob consulta.</p>
     </section>
 
     <section class="services band">
@@ -115,96 +117,926 @@
       <div class="section-heading gallery-heading reveal">
         <div>
           <p class="section-kicker">Catálogo</p>
-          <h2>Escolha seu estilo</h2>
+          <h2>Encontre o tema da sua festa</h2>
         </div>
-        <button class="button gallery-toggle" type="button" data-gallery-toggle aria-expanded="false">Ver tudo</button>
+        <button class="button gallery-toggle" type="button" data-gallery-toggle aria-expanded="false" aria-controls="catalogo-temas" hidden>Ver todos os temas</button>
       </div>
-      <div class="theme-grid">
-        <article class="theme-card featured reveal">
-          <img src="assets/tardezinha.jpg" alt="Decoração tema Tardezinha com painel pôr do sol, coqueiros e cilindros coloridos" loading="lazy">
+      <div class="catalog-controls" hidden>
+        <label for="theme-search">Buscar um tema
+          <input id="theme-search" type="search" placeholder="Ex.: safari, princesa, futebol…" autocomplete="off">
+        </label>
+        <p id="catalog-count" role="status" aria-live="polite"></p>
+      </div>
+      <p class="catalog-note">Fotos de montagens realizadas pela Lidhy Festas. Consulte os itens, as opções de Pegue e Monte ou decoração completa e a disponibilidade para a data da sua festa.</p>
+      <div class="theme-grid catalog-grid" id="catalogo-temas">
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/tardezinha.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Tardezinha">
+            <img src="assets/tardezinha.jpg" alt="Montagem do tema Tardezinha da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
           <div class="card-info">
-            <span>Tropical</span>
             <h3>Tardezinha</h3>
-            <p>Vibrante, alegre e perfeito para festas cheias de cor.</p>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Tardezinha%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/" target="_blank" rel="noreferrer" aria-label="Ver tema Tardezinha no Instagram">Instagram ↗</a>
+            </div>
           </div>
         </article>
-        <article class="theme-card reveal" style="--d:.08s">
-          <img src="assets/poderoso-chefinho.jpg" alt="Decoração Poderoso Chefinho em azul, preto e branco com arco de balões" loading="lazy">
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/poderoso-chefinho.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Poderoso Chefinho">
+            <img src="assets/poderoso-chefinho.jpg" alt="Montagem do tema Poderoso Chefinho da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
           <div class="card-info">
-            <span>Infantil</span>
             <h3>Poderoso Chefinho</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Poderoso%20Chefinho%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/" target="_blank" rel="noreferrer" aria-label="Ver tema Poderoso Chefinho no Instagram">Instagram ↗</a>
+            </div>
           </div>
         </article>
-        <article class="theme-card reveal" style="--d:.16s">
-          <img src="assets/ursinha-princesa.jpg" alt="Decoração rosa de ursinha princesa com coroa e arco de balões" loading="lazy">
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/ursinha-princesa.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Ursinha Princesa">
+            <img src="assets/ursinha-princesa.jpg" alt="Montagem do tema Ursinha Princesa da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
           <div class="card-info">
-            <span>Delicado</span>
             <h3>Ursinha Princesa</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Ursinha%20Princesa%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/" target="_blank" rel="noreferrer" aria-label="Ver tema Ursinha Princesa no Instagram">Instagram ↗</a>
+            </div>
           </div>
         </article>
-        <article class="theme-card reveal" style="--d:.24s">
-          <img src="assets/hot-wheels.jpg" alt="Decoração Hot Wheels com monster truck e balões azuis e laranja" loading="lazy">
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/hot-wheels.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Hot Wheels">
+            <img src="assets/hot-wheels.jpg" alt="Montagem do tema Hot Wheels da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
           <div class="card-info">
-            <span>Aventura</span>
             <h3>Hot Wheels</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Hot%20Wheels%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/" target="_blank" rel="noreferrer" aria-label="Ver tema Hot Wheels no Instagram">Instagram ↗</a>
+            </div>
           </div>
         </article>
-        <article class="theme-card reveal">
-          <img src="assets/bilu.jpg" alt="Decoração Bolofofos com personagens coloridos em tons roxo e rosa" loading="lazy">
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/bilu.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Bolofofos">
+            <img src="assets/bilu.jpg" alt="Montagem do tema Bolofofos da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
           <div class="card-info">
-            <span>Fofo</span>
             <h3>Bolofofos</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Bolofofos%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/" target="_blank" rel="noreferrer" aria-label="Ver tema Bolofofos no Instagram">Instagram ↗</a>
+            </div>
           </div>
         </article>
-        <article class="theme-card reveal" style="--d:.08s">
-          <img src="assets/happy-birthday.jpg" alt="Decoração pink Happy Birthday com arco pink e mesas douradas" loading="lazy">
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/happy-birthday.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Happy Birthday">
+            <img src="assets/happy-birthday.jpg" alt="Montagem do tema Happy Birthday da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
           <div class="card-info">
-            <span>Minimal chic</span>
             <h3>Happy Birthday</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Happy%20Birthday%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/" target="_blank" rel="noreferrer" aria-label="Ver tema Happy Birthday no Instagram">Instagram ↗</a>
+            </div>
           </div>
         </article>
-        <article class="theme-card reveal" style="--d:.16s">
-          <img src="assets/floral.jpg" alt="Decoração floral rosa geométrica com mesas douradas e painel redondo" loading="lazy">
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/floral.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Floral Rosé">
+            <img src="assets/floral.jpg" alt="Montagem do tema Floral Rosé da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
           <div class="card-info">
-            <span>Elegante</span>
             <h3>Floral Rosé</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Floral%20Ros%C3%A9%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/" target="_blank" rel="noreferrer" aria-label="Ver tema Floral Rosé no Instagram">Instagram ↗</a>
+            </div>
           </div>
         </article>
-        <article class="theme-card reveal" style="--d:.24s">
-          <img src="assets/oh-baby-rosa-azul.jpg" alt="Decoração Oh Baby rosa e azul para chá revelação com ursinho e blocos BABY" loading="lazy">
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/oh-baby-rosa-azul.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Oh Baby Rosa &amp; Azul">
+            <img src="assets/oh-baby-rosa-azul.jpg" alt="Montagem do tema Oh Baby Rosa &amp; Azul da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
           <div class="card-info">
-            <span>Chá revelação</span>
-            <h3>Oh Baby Rosa & Azul</h3>
+            <h3>Oh Baby Rosa &amp; Azul</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Oh%20Baby%20Rosa%20%26%20Azul%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/" target="_blank" rel="noreferrer" aria-label="Ver tema Oh Baby Rosa &amp; Azul no Instagram">Instagram ↗</a>
+            </div>
           </div>
         </article>
-        <article class="theme-card hidden-theme">
-          <img src="assets/oh-baby-marrom.jpg" alt="Decoração Oh Baby em tons de marrom e branco com ursinho e balões" loading="lazy">
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/oh-baby-marrom.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Oh Baby Marrom">
+            <img src="assets/oh-baby-marrom.jpg" alt="Montagem do tema Oh Baby Marrom da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
           <div class="card-info">
-            <span>Chá de bebê</span>
             <h3>Oh Baby Marrom</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Oh%20Baby%20Marrom%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/" target="_blank" rel="noreferrer" aria-label="Ver tema Oh Baby Marrom no Instagram">Instagram ↗</a>
+            </div>
           </div>
         </article>
-        <article class="theme-card hidden-theme">
-          <img src="assets/oh-baby-verde-lilas.jpg" alt="Decoração Oh Baby verde e lilás com ursinho e arco de balões" loading="lazy">
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/oh-baby-verde-lilas.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Oh Baby Verde &amp; Lilás">
+            <img src="assets/oh-baby-verde-lilas.jpg" alt="Montagem do tema Oh Baby Verde &amp; Lilás da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
           <div class="card-info">
-            <span>Chá de bebê</span>
-            <h3>Oh Baby Verde & Lilás</h3>
+            <h3>Oh Baby Verde &amp; Lilás</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Oh%20Baby%20Verde%20%26%20Lil%C3%A1s%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/" target="_blank" rel="noreferrer" aria-label="Ver tema Oh Baby Verde &amp; Lilás no Instagram">Instagram ↗</a>
+            </div>
           </div>
         </article>
-        <article class="theme-card hidden-theme">
-          <img src="assets/ursinho-aviador.jpg" alt="Decoração ursinho aviador em tons neutros com avião para chá de bebê" loading="lazy">
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/ursinho-aviador.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Ursinho Aviador">
+            <img src="assets/ursinho-aviador.jpg" alt="Montagem do tema Ursinho Aviador da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
           <div class="card-info">
-            <span>Chá de bebê</span>
             <h3>Ursinho Aviador</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Ursinho%20Aviador%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/" target="_blank" rel="noreferrer" aria-label="Ver tema Ursinho Aviador no Instagram">Instagram ↗</a>
+            </div>
           </div>
         </article>
-        <article class="theme-card hidden-theme">
-          <img src="assets/rosa-dos-rosa.jpg" alt="Decoração tema Rosa dos Rosa colorida com painel redondo e cilindros" loading="lazy">
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/rosa-dos-rosa.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Rosa dos Rosa">
+            <img src="assets/rosa-dos-rosa.jpg" alt="Montagem do tema Rosa dos Rosa da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
           <div class="card-info">
-            <span>Divertido</span>
             <h3>Rosa dos Rosa</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Rosa%20dos%20Rosa%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/" target="_blank" rel="noreferrer" aria-label="Ver tema Rosa dos Rosa no Instagram">Instagram ↗</a>
+            </div>
           </div>
         </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/CyYxS7fLmkO.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Circo rosa">
+            <img src="assets/temas/CyYxS7fLmkO.jpg" alt="Montagem do tema Circo rosa da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Circo rosa</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Circo%20rosa%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/CyYxS7fLmkO/" target="_blank" rel="noreferrer" aria-label="Ver tema Circo rosa no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/CyBRVBosbUB.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Ariel - Pequena Sereia">
+            <img src="assets/temas/CyBRVBosbUB.jpg" alt="Montagem do tema Ariel - Pequena Sereia da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Ariel - Pequena Sereia</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Ariel%20-%20Pequena%20Sereia%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/CyBRVBosbUB/" target="_blank" rel="noreferrer" aria-label="Ver tema Ariel - Pequena Sereia no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/Cz4QabWMlJZ.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Anjinho - Batizado">
+            <img src="assets/temas/Cz4QabWMlJZ.jpg" alt="Montagem do tema Anjinho - Batizado da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Anjinho - Batizado</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Anjinho%20-%20Batizado%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/Cz4QabWMlJZ/" target="_blank" rel="noreferrer" aria-label="Ver tema Anjinho - Batizado no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/Cz4PyuQsb-u.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Mickey">
+            <img src="assets/temas/Cz4PyuQsb-u.jpg" alt="Montagem do tema Mickey da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Mickey</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Mickey%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/Cz4PyuQsb-u/" target="_blank" rel="noreferrer" aria-label="Ver tema Mickey no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/Cz4PUSYsavN.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Boteco">
+            <img src="assets/temas/Cz4PUSYsavN.jpg" alt="Montagem do tema Boteco da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Boteco</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Boteco%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/Cz4PUSYsavN/" target="_blank" rel="noreferrer" aria-label="Ver tema Boteco no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/CzsRV0ROLCT.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Moana Baby">
+            <img src="assets/temas/CzsRV0ROLCT.jpg" alt="Montagem do tema Moana Baby da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Moana Baby</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Moana%20Baby%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/CzsRV0ROLCT/" target="_blank" rel="noreferrer" aria-label="Ver tema Moana Baby no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/Czm6VuIOO6S.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Minnie vermelha">
+            <img src="assets/temas/Czm6VuIOO6S.jpg" alt="Montagem do tema Minnie vermelha da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Minnie vermelha</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Minnie%20vermelha%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/reel/Czm6VuIOO6S/" target="_blank" rel="noreferrer" aria-label="Ver tema Minnie vermelha no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/Cy6MsZtroTi.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Five Nights at Freddys">
+            <img src="assets/temas/Cy6MsZtroTi.jpg" alt="Montagem do tema Five Nights at Freddys da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Five Nights at Freddys</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Five%20Nights%20at%20Freddys%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/Cy6MsZtroTi/" target="_blank" rel="noreferrer" aria-label="Ver tema Five Nights at Freddys no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/Cy4o_M6Oxz_.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Chá revelação">
+            <img src="assets/temas/Cy4o_M6Oxz_.jpg" alt="Montagem do tema Chá revelação da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Chá revelação</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Ch%C3%A1%20revela%C3%A7%C3%A3o%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/reel/Cy4o_M6Oxz_/" target="_blank" rel="noreferrer" aria-label="Ver tema Chá revelação no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/Cy38HLdPfX3.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Bolofofos rosa">
+            <img src="assets/temas/Cy38HLdPfX3.jpg" alt="Montagem do tema Bolofofos rosa da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Bolofofos rosa</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Bolofofos%20rosa%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/Cy38HLdPfX3/" target="_blank" rel="noreferrer" aria-label="Ver tema Bolofofos rosa no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/Cy1iTG2vrUe.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Pequeno Príncipe">
+            <img src="assets/temas/Cy1iTG2vrUe.jpg" alt="Montagem do tema Pequeno Príncipe da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Pequeno Príncipe</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Pequeno%20Pr%C3%ADncipe%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/Cy1iTG2vrUe/" target="_blank" rel="noreferrer" aria-label="Ver tema Pequeno Príncipe no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/Cy1JMcIvDpX.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Homem-Aranha">
+            <img src="assets/temas/Cy1JMcIvDpX.jpg" alt="Montagem do tema Homem-Aranha da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Homem-Aranha</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Homem-Aranha%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/Cy1JMcIvDpX/" target="_blank" rel="noreferrer" aria-label="Ver tema Homem-Aranha no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/CyynhsRMRes.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Neon">
+            <img src="assets/temas/CyynhsRMRes.jpg" alt="Montagem do tema Neon da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Neon</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Neon%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/CyynhsRMRes/" target="_blank" rel="noreferrer" aria-label="Ver tema Neon no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C0m8VKZMQEQ.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Futebol">
+            <img src="assets/temas/C0m8VKZMQEQ.jpg" alt="Montagem do tema Futebol da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Futebol</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Futebol%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C0m8VKZMQEQ/" target="_blank" rel="noreferrer" aria-label="Ver tema Futebol no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C0m8Q5XshHc.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Unicórnio">
+            <img src="assets/temas/C0m8Q5XshHc.jpg" alt="Montagem do tema Unicórnio da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Unicórnio</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Unic%C3%B3rnio%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C0m8Q5XshHc/" target="_blank" rel="noreferrer" aria-label="Ver tema Unicórnio no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C0jLceQuqTX.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Chá de bebê rosa">
+            <img src="assets/temas/C0jLceQuqTX.jpg" alt="Montagem do tema Chá de bebê rosa da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Chá de bebê rosa</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Ch%C3%A1%20de%20beb%C3%AA%20rosa%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/reel/C0jLceQuqTX/" target="_blank" rel="noreferrer" aria-label="Ver tema Chá de bebê rosa no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C0cXPV7vHWg.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Natal">
+            <img src="assets/temas/C0cXPV7vHWg.jpg" alt="Montagem do tema Natal da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Natal</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Natal%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/reel/C0cXPV7vHWg/" target="_blank" rel="noreferrer" aria-label="Ver tema Natal no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C1sQT_sMtlo.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Dragon Ball">
+            <img src="assets/temas/C1sQT_sMtlo.jpg" alt="Montagem do tema Dragon Ball da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Dragon Ball</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Dragon%20Ball%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C1sQT_sMtlo/" target="_blank" rel="noreferrer" aria-label="Ver tema Dragon Ball no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C1Ie9V4OeAQ.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Moranguinho">
+            <img src="assets/temas/C1Ie9V4OeAQ.jpg" alt="Montagem do tema Moranguinho da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Moranguinho</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Moranguinho%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C1Ie9V4OeAQ/" target="_blank" rel="noreferrer" aria-label="Ver tema Moranguinho no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C0pc4s1P_CA.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Magali">
+            <img src="assets/temas/C0pc4s1P_CA.jpg" alt="Montagem do tema Magali da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Magali</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Magali%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C0pc4s1P_CA/" target="_blank" rel="noreferrer" aria-label="Ver tema Magali no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C1-8AnpsiAX.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Chá de bebê ursinho">
+            <img src="assets/temas/C1-8AnpsiAX.jpg" alt="Montagem do tema Chá de bebê ursinho da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Chá de bebê ursinho</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Ch%C3%A1%20de%20beb%C3%AA%20ursinho%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C1-8AnpsiAX/" target="_blank" rel="noreferrer" aria-label="Ver tema Chá de bebê ursinho no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C2x3N47v_7M.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Stitch">
+            <img src="assets/temas/C2x3N47v_7M.jpg" alt="Montagem do tema Stitch da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Stitch</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Stitch%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C2x3N47v_7M/" target="_blank" rel="noreferrer" aria-label="Ver tema Stitch no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C2xf5r8vhFZ.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema São Paulo">
+            <img src="assets/temas/C2xf5r8vhFZ.jpg" alt="Montagem do tema São Paulo da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>São Paulo</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20S%C3%A3o%20Paulo%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C2xf5r8vhFZ/" target="_blank" rel="noreferrer" aria-label="Ver tema São Paulo no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C2xIbf3uOAY.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Princesas Disney">
+            <img src="assets/temas/C2xIbf3uOAY.jpg" alt="Montagem do tema Princesas Disney da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Princesas Disney</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Princesas%20Disney%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C2xIbf3uOAY/" target="_blank" rel="noreferrer" aria-label="Ver tema Princesas Disney no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C2cqn3IsaU4.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Galinha Pintadinha">
+            <img src="assets/temas/C2cqn3IsaU4.jpg" alt="Montagem do tema Galinha Pintadinha da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Galinha Pintadinha</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Galinha%20Pintadinha%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C2cqn3IsaU4/" target="_blank" rel="noreferrer" aria-label="Ver tema Galinha Pintadinha no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C2Vf3s0PiNi.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Minecraft">
+            <img src="assets/temas/C2Vf3s0PiNi.jpg" alt="Montagem do tema Minecraft da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Minecraft</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Minecraft%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/reel/C2Vf3s0PiNi/" target="_blank" rel="noreferrer" aria-label="Ver tema Minecraft no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C2N3bHXM2kT.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Barbie">
+            <img src="assets/temas/C2N3bHXM2kT.jpg" alt="Montagem do tema Barbie da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Barbie</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Barbie%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C2N3bHXM2kT/" target="_blank" rel="noreferrer" aria-label="Ver tema Barbie no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C2JMN9Ms6Hx.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Naruto">
+            <img src="assets/temas/C2JMN9Ms6Hx.jpg" alt="Montagem do tema Naruto da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Naruto</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Naruto%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C2JMN9Ms6Hx/" target="_blank" rel="noreferrer" aria-label="Ver tema Naruto no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C3Y9B5Qt5pi.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Frozen">
+            <img src="assets/temas/C3Y9B5Qt5pi.jpg" alt="Montagem do tema Frozen da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Frozen</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Frozen%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C3Y9B5Qt5pi/" target="_blank" rel="noreferrer" aria-label="Ver tema Frozen no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C3TaFW-PlvI.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Docinho - Meninas Superpoderosas">
+            <img src="assets/temas/C3TaFW-PlvI.jpg" alt="Montagem do tema Docinho - Meninas Superpoderosas da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Docinho - Meninas Superpoderosas</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Docinho%20-%20Meninas%20Superpoderosas%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C3TaFW-PlvI/" target="_blank" rel="noreferrer" aria-label="Ver tema Docinho - Meninas Superpoderosas no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C3S3eNVOP0b.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Carros">
+            <img src="assets/temas/C3S3eNVOP0b.jpg" alt="Montagem do tema Carros da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Carros</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Carros%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C3S3eNVOP0b/" target="_blank" rel="noreferrer" aria-label="Ver tema Carros no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C25FFVhMrp_.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Vingadores">
+            <img src="assets/temas/C25FFVhMrp_.jpg" alt="Montagem do tema Vingadores da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Vingadores</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Vingadores%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C25FFVhMrp_/" target="_blank" rel="noreferrer" aria-label="Ver tema Vingadores no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C25FCTusvdg.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Super-heróis Lego">
+            <img src="assets/temas/C25FCTusvdg.jpg" alt="Montagem do tema Super-heróis Lego da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Super-heróis Lego</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Super-her%C3%B3is%20Lego%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C25FCTusvdg/" target="_blank" rel="noreferrer" aria-label="Ver tema Super-heróis Lego no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C25E67ssDoC.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Chaves">
+            <img src="assets/temas/C25E67ssDoC.jpg" alt="Montagem do tema Chaves da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Chaves</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Chaves%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C25E67ssDoC/" target="_blank" rel="noreferrer" aria-label="Ver tema Chaves no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C225O2rPga3.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Geométrico dourado">
+            <img src="assets/temas/C225O2rPga3.jpg" alt="Montagem do tema Geométrico dourado da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Geométrico dourado</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Geom%C3%A9trico%20dourado%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C225O2rPga3/" target="_blank" rel="noreferrer" aria-label="Ver tema Geométrico dourado no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C225J8PvkpL.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Boteco - Chalkboard">
+            <img src="assets/temas/C225J8PvkpL.jpg" alt="Montagem do tema Boteco - Chalkboard da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Boteco - Chalkboard</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Boteco%20-%20Chalkboard%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C225J8PvkpL/" target="_blank" rel="noreferrer" aria-label="Ver tema Boteco - Chalkboard no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C4YZnbwuA8g.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Masha e o Urso">
+            <img src="assets/temas/C4YZnbwuA8g.jpg" alt="Montagem do tema Masha e o Urso da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Masha e o Urso</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Masha%20e%20o%20Urso%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C4YZnbwuA8g/" target="_blank" rel="noreferrer" aria-label="Ver tema Masha e o Urso no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C4DelgesBST.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Jardim das borboletas">
+            <img src="assets/temas/C4DelgesBST.jpg" alt="Montagem do tema Jardim das borboletas da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Jardim das borboletas</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Jardim%20das%20borboletas%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C4DelgesBST/" target="_blank" rel="noreferrer" aria-label="Ver tema Jardim das borboletas no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C3lbkv6PEoG.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Pokémon">
+            <img src="assets/temas/C3lbkv6PEoG.jpg" alt="Montagem do tema Pokémon da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Pokémon</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Pok%C3%A9mon%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C3lbkv6PEoG/" target="_blank" rel="noreferrer" aria-label="Ver tema Pokémon no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C59w1UMNygs.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Peppa Pig">
+            <img src="assets/temas/C59w1UMNygs.jpg" alt="Montagem do tema Peppa Pig da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Peppa Pig</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Peppa%20Pig%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C59w1UMNygs/" target="_blank" rel="noreferrer" aria-label="Ver tema Peppa Pig no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C59tRpeNB57.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Baby Shark">
+            <img src="assets/temas/C59tRpeNB57.jpg" alt="Montagem do tema Baby Shark da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Baby Shark</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Baby%20Shark%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C59tRpeNB57/" target="_blank" rel="noreferrer" aria-label="Ver tema Baby Shark no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C56uRd1LpDv.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Tartarugas Ninja">
+            <img src="assets/temas/C56uRd1LpDv.jpg" alt="Montagem do tema Tartarugas Ninja da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Tartarugas Ninja</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Tartarugas%20Ninja%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C56uRd1LpDv/" target="_blank" rel="noreferrer" aria-label="Ver tema Tartarugas Ninja no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C54DyfgPH3B.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Skye - Patrulha Canina">
+            <img src="assets/temas/C54DyfgPH3B.jpg" alt="Montagem do tema Skye - Patrulha Canina da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Skye - Patrulha Canina</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Skye%20-%20Patrulha%20Canina%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/reel/C54DyfgPH3B/" target="_blank" rel="noreferrer" aria-label="Ver tema Skye - Patrulha Canina no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C51kZ4dv9cp.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Spirit - Cavalos">
+            <img src="assets/temas/C51kZ4dv9cp.jpg" alt="Montagem do tema Spirit - Cavalos da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Spirit - Cavalos</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Spirit%20-%20Cavalos%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C51kZ4dv9cp/" target="_blank" rel="noreferrer" aria-label="Ver tema Spirit - Cavalos no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C51kOuCP-yY.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Luccas Neto">
+            <img src="assets/temas/C51kOuCP-yY.jpg" alt="Montagem do tema Luccas Neto da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Luccas Neto</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Luccas%20Neto%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C51kOuCP-yY/" target="_blank" rel="noreferrer" aria-label="Ver tema Luccas Neto no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C5zQLIJMJqd.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Floral vermelho">
+            <img src="assets/temas/C5zQLIJMJqd.jpg" alt="Montagem do tema Floral vermelho da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Floral vermelho</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Floral%20vermelho%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C5zQLIJMJqd/" target="_blank" rel="noreferrer" aria-label="Ver tema Floral vermelho no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C5zEvCeP5Tn.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Safari baby">
+            <img src="assets/temas/C5zEvCeP5Tn.jpg" alt="Montagem do tema Safari baby da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Safari baby</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Safari%20baby%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C5zEvCeP5Tn/" target="_blank" rel="noreferrer" aria-label="Ver tema Safari baby no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C5HHOgzvsSP.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema PJ Masks">
+            <img src="assets/temas/C5HHOgzvsSP.jpg" alt="Montagem do tema PJ Masks da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>PJ Masks</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20PJ%20Masks%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C5HHOgzvsSP/" target="_blank" rel="noreferrer" aria-label="Ver tema PJ Masks no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C48_LtOPayK.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Patrulha Canina">
+            <img src="assets/temas/C48_LtOPayK.jpg" alt="Montagem do tema Patrulha Canina da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Patrulha Canina</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Patrulha%20Canina%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C48_LtOPayK/" target="_blank" rel="noreferrer" aria-label="Ver tema Patrulha Canina no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C8uduvEO6Oj.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Pipas e balões">
+            <img src="assets/temas/C8uduvEO6Oj.jpg" alt="Montagem do tema Pipas e balões da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Pipas e balões</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Pipas%20e%20bal%C3%B5es%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C8uduvEO6Oj/" target="_blank" rel="noreferrer" aria-label="Ver tema Pipas e balões no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C8c4L7wPc0G.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Cavalos">
+            <img src="assets/temas/C8c4L7wPc0G.jpg" alt="Montagem do tema Cavalos da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Cavalos</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Cavalos%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C8c4L7wPc0G/" target="_blank" rel="noreferrer" aria-label="Ver tema Cavalos no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C8aN7q1PJ60.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Princesa Sofia">
+            <img src="assets/temas/C8aN7q1PJ60.jpg" alt="Montagem do tema Princesa Sofia da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Princesa Sofia</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Princesa%20Sofia%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C8aN7q1PJ60/" target="_blank" rel="noreferrer" aria-label="Ver tema Princesa Sofia no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C8H6cV3tBT6.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Dinossauros baby">
+            <img src="assets/temas/C8H6cV3tBT6.jpg" alt="Montagem do tema Dinossauros baby da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Dinossauros baby</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Dinossauros%20baby%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C8H6cV3tBT6/" target="_blank" rel="noreferrer" aria-label="Ver tema Dinossauros baby no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C7hVE5OPnlH.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Happy Birthday dourado">
+            <img src="assets/temas/C7hVE5OPnlH.jpg" alt="Montagem do tema Happy Birthday dourado da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Happy Birthday dourado</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Happy%20Birthday%20dourado%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C7hVE5OPnlH/" target="_blank" rel="noreferrer" aria-label="Ver tema Happy Birthday dourado no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C7RgHEiu1zQ.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Jardim floral">
+            <img src="assets/temas/C7RgHEiu1zQ.jpg" alt="Montagem do tema Jardim floral da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Jardim floral</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Jardim%20floral%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C7RgHEiu1zQ/" target="_blank" rel="noreferrer" aria-label="Ver tema Jardim floral no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C7PWxzcOIwx.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Minnie rosa">
+            <img src="assets/temas/C7PWxzcOIwx.jpg" alt="Montagem do tema Minnie rosa da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Minnie rosa</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Minnie%20rosa%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C7PWxzcOIwx/" target="_blank" rel="noreferrer" aria-label="Ver tema Minnie rosa no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C6KJdx7PTYf.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Rei Leão">
+            <img src="assets/temas/C6KJdx7PTYf.jpg" alt="Montagem do tema Rei Leão da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Rei Leão</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Rei%20Le%C3%A3o%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/reel/C6KJdx7PTYf/" target="_blank" rel="noreferrer" aria-label="Ver tema Rei Leão no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C6HNFJWuMYg.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Fazendinha">
+            <img src="assets/temas/C6HNFJWuMYg.jpg" alt="Montagem do tema Fazendinha da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Fazendinha</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Fazendinha%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C6HNFJWuMYg/" target="_blank" rel="noreferrer" aria-label="Ver tema Fazendinha no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C6EpYlkOztB.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Mulher-Maravilha">
+            <img src="assets/temas/C6EpYlkOztB.jpg" alt="Montagem do tema Mulher-Maravilha da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Mulher-Maravilha</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Mulher-Maravilha%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C6EpYlkOztB/" target="_blank" rel="noreferrer" aria-label="Ver tema Mulher-Maravilha no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="theme-card">
+          <a class="catalog-photo" href="assets/temas/C6EXIGauuTp.jpg" target="_blank" rel="noreferrer" aria-label="Ampliar foto do tema Festa Junina">
+            <img src="assets/temas/C6EXIGauuTp.jpg" alt="Montagem do tema Festa Junina da Lidhy Festas" loading="lazy" decoding="async" width="600" height="750">
+          </a>
+          <div class="card-info">
+            <h3>Festa Junina</h3>
+            <div class="catalog-links">
+              <a href="https://wa.me/5512981256800?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20os%20itens%2C%20o%20valor%20e%20a%20disponibilidade%20do%20tema%20Festa%20Junina%20para%20minha%20festa." target="_blank" rel="noreferrer">Consultar tema ↗</a>
+              <a class="catalog-source" href="https://www.instagram.com/lidhyfestas/p/C6EXIGauuTp/" target="_blank" rel="noreferrer" aria-label="Ver tema Festa Junina no Instagram">Instagram ↗</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="venue-section band" id="espaco" aria-labelledby="espaco-titulo">
+      <div class="venue-heading">
+        <p class="section-kicker">Chácara / Espaço de festas · Lorena, SP</p>
+        <h2 id="espaco-titulo">Espaço Lidhy<br><em>Festas & Eventos</em></h2>
+        <p>Um lugar para reunir a família, celebrar com os amigos e aproveitar cada momento. Recebemos aniversários, casamentos, chás, batizados e confraternizações.</p>
+      </div>
+      <div class="venue-layout">
+        <div class="venue-photos">
+          <figure>
+            <a href="assets/espaco/area-externa.jpg" target="_blank" rel="noreferrer" aria-label="Abrir foto da piscina do Espaço Lidhy">
+              <img src="assets/espaco/area-externa.jpg" alt="Piscina e área externa do Espaço Lidhy Festas & Eventos" loading="lazy" width="640" height="853">
+            </a>
+            <figcaption>Piscina e área externa</figcaption>
+          </figure>
+          <figure>
+            <a href="assets/espaco/salao.jpg" target="_blank" rel="noreferrer" aria-label="Abrir foto do salão do Espaço Lidhy">
+              <img src="assets/espaco/salao.jpg" alt="Salão coberto com paredes azuis, mesas e cadeiras no Espaço Lidhy" loading="lazy" width="900" height="1200">
+            </a>
+            <figcaption>Salão coberto para receber seus convidados</figcaption>
+          </figure>
+        </div>
+        <div class="venue-details">
+          <h3>Conheça nossa estrutura</h3>
+          <ul class="venue-amenities">
+            <li>Piscina</li><li>Salão amplo</li>
+            <li>Churrasqueira</li><li>Cozinha completa</li>
+            <li>Geladeira e freezer</li><li>10 jogos de mesa</li>
+            <li>Som</li><li>Wi-Fi</li>
+          </ul>
+          <div class="venue-booking">
+            <h3>O espaço, do seu jeito</h3>
+            <p>Alugue somente o espaço ou inclua a decoração completa com a nossa equipe. Consulte valores, capacidade e disponibilidade para a data da sua festa.</p>
+            <a class="button primary" href="https://wa.me/5512981256800?text=Ol%C3%A1%21%20Quero%20consultar%20uma%20data%20e%20os%20valores%20do%20Espa%C3%A7o%20Lidhy%20Festas%20%26%20Eventos." target="_blank" rel="noreferrer">Consultar data do espaço</a>
+          </div>
+          <div class="venue-address">
+            <h3>Venha conhecer</h3>
+            <address>Rua Minas Gerais, 418<br>Bairro Industrial · Lorena/SP</address>
+            <a href="https://www.google.com/maps/search/?api=1&query=Rua%20Minas%20Gerais%20418%20Bairro%20Industrial%20Lorena%20SP" target="_blank" rel="noreferrer">Ver localização no mapa ↗</a>
+            <a href="https://www.instagram.com/espacolidhyfestas/" target="_blank" rel="noreferrer">Mais fotos no @espacolidhyfestas ↗</a>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -247,7 +1079,8 @@
 
   <footer>
     <strong>Lidhy Festas</strong>
-    <span>Kits Pegue e Monte & Decoração</span>
+    <span>Kits Pegue e Monte · Decoração · Espaço de Festas</span>
+    <a href="https://www.instagram.com/lidhyfestas/" target="_blank" rel="noreferrer">@lidhyfestas</a>
   </footer>
 
   <a class="whats-float" href="https://wa.me/5512981256800?text=Oi%2C%20quero%20um%20or%C3%A7amento%20da%20Lidhy%20Festas." target="_blank" rel="noreferrer" aria-label="Chamar no WhatsApp">
@@ -257,5 +1090,31 @@
   </a>
 
   <script src="script.js"></script>
+  <button class="chat-launcher" type="button" aria-haspopup="dialog" aria-controls="lidhy-chat" hidden>
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 4h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H9l-5 3v-3a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z"/><path d="M7 9h10M7 13h6"/></svg>
+    Tirar dúvidas
+  </button>
+  <dialog id="lidhy-chat" class="chat-dialog" aria-labelledby="chat-title" aria-describedby="chat-description">
+    <header class="chat-header">
+      <div><h2 id="chat-title">Assistente Lidhy</h2><p id="chat-description">Respostas automáticas sobre nossas festas</p></div>
+      <button class="chat-close" type="button" aria-label="Fechar conversa">×</button>
+    </header>
+    <div id="chat-messages" class="chat-messages" role="log" aria-live="polite" aria-relevant="additions" aria-label="Conversa com o assistente">
+      <p class="chat-message bot">Olá! Posso ajudar com valores, temas, kits e o Espaço Lidhy. O que você gostaria de saber?</p>
+    </div>
+    <div class="chat-quick" aria-label="Perguntas frequentes">
+      <button type="button" data-question="Quais são os valores?">Valores</button>
+      <button type="button" data-question="Como funciona o pegue e monte?">Pegue e Monte</button>
+      <button type="button" data-question="O que o espaço oferece?">O espaço</button>
+      <button type="button" data-question="Como reservar uma data?">Reservar</button>
+    </div>
+    <form id="chat-form" class="chat-form">
+      <label for="chat-input" class="sr-only">Digite sua dúvida</label>
+      <input id="chat-input" name="message" type="text" placeholder="Digite sua dúvida…" maxlength="500" autocomplete="off" required>
+      <button type="submit" aria-label="Enviar dúvida">Enviar</button>
+    </form>
+    <a class="chat-human" href="https://wa.me/5512981256800?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20falar%20com%20a%20Lidhy%20Festas." target="_blank" rel="noreferrer">Falar com a equipe no WhatsApp ↗</a>
+  </dialog>
+  <script src="chatbot.js"></script>
 </body>
 </html>
